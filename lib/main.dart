@@ -91,6 +91,8 @@ class _MyAppState extends State<MyApp> {
 
   void _search() async {
     final response = await _dataService.getMovies(_movieController.text);
-    setState(() => _response = response);
+    setState(() {
+      _response = response;
+    });
   }
 }

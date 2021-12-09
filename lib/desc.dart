@@ -5,12 +5,7 @@ class Description extends StatelessWidget {
   final String name, description, banner, vote, launch;
 
   const Description(
-      {Key key,
-      this.name,
-      this.description,
-      this.banner,
-      this.vote,
-      this.launch});
+      {this.name, this.description, this.banner, this.vote, this.launch});
 
   @override
   Widget build(BuildContext context) {
